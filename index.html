@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleVersion2.css" as="style">
+    <title>Challenge Alura Latam</title>
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <div class="contenedor__i">
+            <div class="subContenedor__i">
+                    <figure class="subContenedor__i--logo">
+                        <img src="img/Vector.png" alt="logo Alura">
+                    </figure>
+                
+                    <div class="subContenedor__i--contenido">
+                            <textarea  class="texxto"id="textoIngresado" placeholder="Ingrese aqui su texto" rows="15"></textarea>
+            
+                            <div class="subContenedor__i--contenidoInferior">
+                                <p>Solo letras minúsculas y sin acentos</p>
+                                <div class="subContenedor__botones">
+                                    <button type="button" class="estilos__botones botonn" id="btn-1" onclick="botonEncriptar()" >Encriptar</button>
+                                    <button type="button" class="estilos__botones" id="btn-2" onclick="botonDesencriptar()" >Desencriptar</button>
+                                </div>
+                            </div>
+                    </div>
+            </div>
+        </div>
+
+
+        <div class="contenedor__d">
+            <div class="subContenedor__d">
+                <textarea id="textoResultado" rows="10"></textarea>
+    
+                <figure class="subContenedor__d--imagen">
+                    <img src="img/Muñeco.png" alt="imagen muñero" id="ocultar">
+                </figure>
+    
+                <div class="subContenedor__d--contendioInferior">
+                    <h3 id="ocultarh3">Ningun mensaje fue encontrado</h3>
+                    <p id="ocultarp">Ingresa el texto que desees encriptar o desencriptar</p>
+                    <button type="button" class="estilos__botones" id="btn-3" onclick="copiar()" >Copiar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- <figure class="logo__alura">
+        <img src="img/Vector.png" alt="logo Alura">
+    </figure>
+
+    <main class="menu">
+        <div class="contenedor__izquierdo">
+            <textarea class="area__ingreso" placeholder="Ingrese aqui el texto"></textarea>
+            <div class="botones">
+                <p>Solo letras minúsculas y sin acentos</p>
+                <div class="contenedor__botones">
+                    <button type="submit">Encriptar</button>
+                    <button type="submit">Desencriptar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="contenedor__derecho">
+            <textarea class="area__ingreso"></textarea>
+            <figure>
+                <img src="img/Muñeco.png" alt="imagen muñeco">
+            </figure>
+
+            <h3>Ningun mensaje fue encontrado</h3>
+            <p>Ingresa el texto que desees encriptar o desencriptar</p>
+            <button type="submit">Copiar</button>
+
+        </div> -->
+
+
+    </main>
+    
+
+
+    <script src="version4.js"></script>
+
+</body>
+</html>
